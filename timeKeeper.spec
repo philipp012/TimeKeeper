@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['timeKeeper.py'],
+a = Analysis(['timeKeeper.pyw'],
              pathex=['C:\\Users\\M0231244\\PycharmProjects\\TimeKeeper'],
              binaries=[],
              datas=[],
