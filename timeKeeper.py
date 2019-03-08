@@ -23,14 +23,21 @@ while 1:
 
     if GetLastInputInfo >= 10:
         start = time.time()
-        startTime = datetime.datetime.now()
+        startTime = time.strftime('%H:%M', time.gmtime(start + 1))
 
         while GetLastInputInfo >= 10:
             GetLastInputInfo = int(get_idle_duration())
             if GetLastInputInfo < 10:
                 end = time.time()
                 time_elapsed = end - start + 10
+
+                duration = time.strftime('%H:%M:%S', time.gmtime(time_elapsed))
                 if time_elapsed >= 10:
-                    with open("C:\\Users\\M0231244\\Desktop\\time.txt", 'w') as f:
-                        f.write('Pause from ' + str(startTime) + ' to ' + str(
-                            datetime.datetime.now()) + '\nDuration: ' + str(time_elapsed))
+                    with open("H:\\timeKeeper.txt", 'w') as f:
+                        f.write('Date      ' + str(datetime.datetime.now().weekday()) + '.' + str(
+                            datetime.datetime.now().month) + '.' + str(
+                            datetime.datetime.now().year) + '\nFrom      ' + str(
+                            datetime.datetime.now().hour) + ':' + str(
+                            datetime.datetime.now().minute) + '\nTo        ' + str(
+                            datetime.datetime.now().hour) + ':' + str(
+                            datetime.datetime.now().minute) + '\nDuration  ' + str(duration))
