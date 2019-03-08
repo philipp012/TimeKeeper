@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['timeKeeper.pyw'],
+a = Analysis(['timekeeper.pyw'],
              pathex=['C:\\Users\\M0231244\\PycharmProjects\\TimeKeeper'],
              binaries=[],
              datas=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='timeKeeper',
+          name='timekeeper',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,

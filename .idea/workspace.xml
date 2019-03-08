@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="744050f9-48f8-49bb-b917-10d84566b1f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/timeKeeper/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/Analysis-00.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/timeKeeper/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/EXE-00.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/timeKeeper/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/PKG-00.pkg" afterDir="false" />
@@ -10,9 +9,10 @@
       <change beforePath="$PROJECT_DIR$/build/timeKeeper/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/PYZ-00.pyz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/timeKeeper/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/PYZ-00.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/timeKeeper/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/timeKeeper.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/timeKeeper.exe.manifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/timeKeeper/warn-timeKeeper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/warn-timeKeeper.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/timeKeeper/xref-timeKeeper.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/xref-timeKeeper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeKeeper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/timeKeeper.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/timeKeeper.spec" beforeDir="false" afterPath="$PROJECT_DIR$/timeKeeper.spec" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/timeKeeper.pyw">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="491">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -58,6 +58,7 @@
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/hello.py" />
         <option value="$PROJECT_DIR$/timeKeeper.py" />
+        <option value="$PROJECT_DIR$/timeKeeper.pyw" />
       </list>
     </option>
   </component>
@@ -79,6 +80,11 @@
             <path>
               <item name="TimeKeeper" type="b2602c69:ProjectViewProjectNode" />
               <item name="TimeKeeper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TimeKeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimeKeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,12 +346,12 @@
       <workItem from="1552034049679" duration="154000" />
       <workItem from="1552034243697" duration="1260000" />
       <workItem from="1552035857931" duration="14351000" />
-      <workItem from="1552057827787" duration="323000" />
+      <workItem from="1552057827787" duration="622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16088000" />
+    <option name="totallyTimeSpent" value="16387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -382,8 +388,8 @@
     <entry file="file://$PROJECT_DIR$/test.txt" />
     <entry file="file://$PROJECT_DIR$/timeKeeper.pyw">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="491">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
