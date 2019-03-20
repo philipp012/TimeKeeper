@@ -33,7 +33,7 @@ while 1:
 
                 duration = time.strftime('%H:%M:%S', time.gmtime(time_elapsed))
                 if time_elapsed >= 10:
-                    with open("C:\\Users\\M0231244\\Desktop\\timeKeeper.txt", 'w') as f:
+                    with open("C:\\timeKeeper.txt", 'w') as f:
                         f.write('From      ' + str(startTime.hour) + ':' + str(startTime.minute) +
                                 '\nTo        ' + str(datetime.datetime.now().hour) + ':' + str(datetime.datetime.now().minute) + '\nDuration  ' + str(duration))
 

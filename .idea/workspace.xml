@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="744050f9-48f8-49bb-b917-10d84566b1f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/M0231244.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/M0231244.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeKeeper.pyw" beforeDir="false" afterPath="$PROJECT_DIR$/timeKeeper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/timeKeeper.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/timeKeeper.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/warn-timeKeeper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/warn-timeKeeper.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/timeKeeper/xref-timeKeeper.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/timeKeeper/xref-timeKeeper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/timekeeper.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeKeeper.spec" beforeDir="false" afterPath="$PROJECT_DIR$/timeKeeper.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timekeeper.exe" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/timeKeeper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            <state relative-caret-position="376">
+              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -198,23 +207,23 @@
       <workItem from="1552304281142" duration="337000" />
       <workItem from="1552310855465" duration="303000" />
       <workItem from="1552488800199" duration="47000" />
-      <workItem from="1553084811535" duration="3110000" />
+      <workItem from="1553084811535" duration="3447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21590000" />
+    <option name="totallyTimeSpent" value="21927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32218507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32218507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -223,7 +232,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.3277592" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.3277592" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.5076283" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -241,8 +250,8 @@
     <entry file="file://$PROJECT_DIR$/test.txt" />
     <entry file="file://$PROJECT_DIR$/timeKeeper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        <state relative-caret-position="376">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
