@@ -21,20 +21,21 @@ def get_idle_duration():
 while 1:
     GetLastInputInfo = int(get_idle_duration())
 
-    if GetLastInputInfo >= 600:
+    if GetLastInputInfo >= 10:
         startTime = datetime.datetime.now()
         start = time.time()
 
-        while GetLastInputInfo >= 600:
+        while GetLastInputInfo >= 10:
             GetLastInputInfo = int(get_idle_duration())
-            if GetLastInputInfo < 600:
+            if GetLastInputInfo < 10:
                 end = time.time()
-                time_elapsed = end - start + 600
+                time_elapsed = end - start + 10
 
                 duration = time.strftime('%H:%M:%S', time.gmtime(time_elapsed))
-                if time_elapsed >= 600:
-                    with open("C:\\timeKeeper.txt", 'w') as f:
+                if time_elapsed >= 10:
+                    with open("H:\\timeKeeper.txt", 'w') as f:
                         f.write('From      ' + str(startTime.hour) + ':' + str(startTime.minute) +
                                 '\nTo        ' + str(datetime.datetime.now().hour) + ':' +
                                 str(datetime.datetime.now().minute) + '\nDuration  ' + str(duration))
-
+            time.sleep(5)
+    time.sleep(5)
