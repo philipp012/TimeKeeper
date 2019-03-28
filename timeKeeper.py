@@ -18,12 +18,14 @@ def get_idle_duration():
     return millis / 1000.0
 
 
-while 1:
+while True:
     GetLastInputInfo = int(get_idle_duration())
-
+    tester = time.time()
+    print(tester)
     if GetLastInputInfo >= 600:
         startTime = datetime.datetime.now()
         start = time.time()
+        start = start - 600
 
         while GetLastInputInfo >= 600:
             GetLastInputInfo = int(get_idle_duration())
