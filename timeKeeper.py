@@ -36,7 +36,7 @@ while True:
                 duration = time.strftime('%H:%M:%S', time.gmtime(time_elapsed))
                 if time_elapsed >= 10:
                     with open("H:\\timeKeeper.txt", 'w') as f:
-                        f.write('From      ' + str(startTime.hour) + ':' + str(startTime.minute) +
+                        f.write('Date: ' + datetime.datetime.today().strftime('%Y-%m-%d') + '\nFrom      ' + str(startTime.hour) + ':' + str(startTime.minute) +
                                 '\nTo        ' + str(datetime.datetime.now().hour) + ':' +
                                 str(datetime.datetime.now().minute) + '\nDuration  ' + str(duration))
             time.sleep(5)
