@@ -20,8 +20,6 @@ def get_idle_duration():
 
 while True:
     GetLastInputInfo = int(get_idle_duration())
-    tester = time.time()
-    print(tester)
     if GetLastInputInfo >= 600:
         startTime = datetime.datetime.now()
         start = time.time()
