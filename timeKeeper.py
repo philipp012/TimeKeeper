@@ -20,22 +20,20 @@ def get_idle_duration():
 
 while True:
     GetLastInputInfo = int(get_idle_duration())
-    if GetLastInputInfo >= 600:
-        startTime = datetime.datetime.now()
-        start = time.time()
-        start = start - 600
+    startTime = datetime.datetime.now()
+    start = time.time()
+    while GetLastInputInfo >= 600:
+        GetLastInputInfo = int(get_idle_duration())
+        if GetLastInputInfo < 600:
+            end = time.time()
+            time_elapsed = end - start
 
-        while GetLastInputInfo >= 600:
-            GetLastInputInfo = int(get_idle_duration())
-            if GetLastInputInfo < 600:
-                end = time.time()
-                time_elapsed = end - start
-
-                duration = time.strftime('%H:%M:%S', time.gmtime(time_elapsed))
-                if time_elapsed >= 10:
-                    with open("H:\\timeKeeper.txt", 'w') as f:
-                        f.write('Date: ' + datetime.datetime.today().strftime('%Y-%m-%d') + '\nFrom      ' + str(startTime.hour) + ':' + str(startTime.minute) +
-                                '\nTo        ' + str(datetime.datetime.now().hour) + ':' +
-                                str(datetime.datetime.now().minute) + '\nDuration  ' + str(duration))
-            time.sleep(5)
+            duration = time.strftime('%H:%M:%S', time.gmtime(time_elapsed))
+            if time_elapsed >= 10:
+                with open("H:\\timeKeeper.txt", 'w') as f:
+                    f.write('Date: ' + datetime.datetime.today().strftime('%Y-%m-%d') + '\nFrom      ' + str(
+                        startTime.hour) + ':' + str(startTime.minute) +
+                            '\nTo        ' + str(datetime.datetime.now().hour) + ':' +
+                            str(datetime.datetime.now().minute) + '\nDuration  ' + str(duration))
+        time.sleep(5)
     time.sleep(5)
